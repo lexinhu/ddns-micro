@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8077 # 如果端口占用，可以修改这里
+pull-address: http://ip.json-json.com #备用地址：https://ifconfig.co/ip
+aliddns:
+  # 阿里云密钥
+  access-key-id:
+  access-key-secret:
+  # 需要解析的域名 比如xn2001.com
+  domain-name:
+  # 哪条解析，比如 abc.xn2001.com 填 abc
+  tow-domain-name:
